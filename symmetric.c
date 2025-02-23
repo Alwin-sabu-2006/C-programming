@@ -28,8 +28,15 @@ int main()
   }
  else
   {
-   printf("The entered matrix is symmetric");
+   printf("The entered matrix is symmetric \n");
+   for (i = 0; i < size; i++) {
+      for (j = 0; j < size; j++) {
+          printf("%d ", a[i][j]);
+         }
+      printf("\n");
   }
+ }
+
 
 
  return 0;
