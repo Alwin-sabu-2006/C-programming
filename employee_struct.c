@@ -1,4 +1,4 @@
-xy#include<stdio.h>
+#include<stdio.h>
 struct employees{
 char name[10];
 int emp_id;
